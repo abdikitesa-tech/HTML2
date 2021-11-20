@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML</title>
+        <H1>Lab session 2</H1>
+        <h2>HyperText Markup Language(HTML)</h2>
+    </head>
+    <body>
+        <img id="image-vangogh"
+     src="/src/include/vangogh.jpg"
+     alt="Van Gogh, Self-portrait">
+     <br/><br/>
+<button onclick="show();">Show image</button>
+
+<script>
+  let show = () => {
+    let img = document.getElementById("image-vangogh");
+    alert("Src = " + img.src);
+  }
+</script>
+
+    </body>
+</html>
